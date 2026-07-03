@@ -3,6 +3,12 @@
 Date: 2026-06-29
 Status: 탐색 완료 (미확정 — 이 레포에만 기록)
 
+> **2026-07-03 정정**: 이 문서의 "MCP wrapping 미구현 / A2A transport 미구현" 판단은
+> 계약 레벨에서는 틀렸다. 런타임 TSK-005가 WorkerBrief / PortableReturnPayload /
+> HandoffReceipt / AgentExecutionChannel을 이미 릴리즈(v0.1.1)했고, 미구현인 것은
+> TSK-005의 explicit non-goal이었던 live transport뿐이다. 최신 방향은
+> `docs/specs/2026-07-03-mcp-a2a-live-transport-direction.md` 참조.
+
 ## 목적
 
 coordinator-worker-subagent 3계층 패턴이 현재 거버넌스/런타임 위에서 동작하는지
